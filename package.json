@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "lambda-build": "^1.0.6"
+  },
+  "scripts": {
+    "build": "lambda-build",
+    "deploy": "lambda-build upload Transcoder-main -e index.ts -r eu-west-2"
+  }
+}
