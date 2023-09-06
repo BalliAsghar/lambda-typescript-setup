@@ -5,6 +5,6 @@
   },
   "scripts": {
     "build": "lambda-build",
-    "deploy": "lambda-build upload Transcoder-main -e index.ts -r eu-west-2"
+    "deploy": "lambda-build upload my_function -e index.ts -r eu-west-2"
   }
 }
